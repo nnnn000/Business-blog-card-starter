@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+h1 {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #111729;
+}
+
+p.content {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #4A5567;
+}
+
+h2 {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  color: #111729;
+}
+
+div.description p {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #4A5567;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.3;
+}
+
+body {
+    background-color: #F2F5F9;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+article.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    padding-bottom: 24px;
+    border-radius: 4%/3%;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+div.img-wrap{
+    position: relative;
+    display: inline-block;
+}
+
+div.img-wrap img.content{
+    width: 100%;
+    display: block;
+}
+
+div.img-wrap img.overlay{
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+}
+
+
+
+article.card > :not(div.img-wrap){
+  padding: 0 32px;
+}
+
+hr{
+    width: 100%;
+    margin-top: 24px;
+    border: none;
+    border-top: 2px solid #F2F5F9;
+}
+
+h1{
+    margin-top: 5px;
+}
+
+p.content{
+    margin-top: 12px;
+}
+
+section.author{
+    margin-top: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 48px;
+}
+
+section.author img{
+    height: 100%;
+    border-radius: 50%/50%;
+    padding: 3px;
+    background-color: #F2F5F9;
+}
+
+.card img.content{
+    width: 100%;
+}
+
+section.author{
+    display: flex;
+    gap: 12px;
+}
+
+
+section.author div.description{
+    display: flex;
+    flex-direction: column;
+}
+
+.author-info {
+font-size: 14px;
+text-align: center;
+margin-top: 16px;
+color: rgb(55, 65, 81);
+}
+
+.author-info a {
+color: rgb(55, 65, 81);
+text-decoration: underline;
+}
+
